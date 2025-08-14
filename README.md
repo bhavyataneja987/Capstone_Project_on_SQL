@@ -45,9 +45,3 @@ The AirlineDB contains multiple tables including:
 5. **Export & Visualization** – Exported query outputs for reporting.
 
 ---
-
--- Average Delay per Airport
-SELECT airport_code, AVG(arrival_delay) AS avg_delay
-FROM flights
-GROUP BY airport_code
-ORDER BY avg_delay DESC;
